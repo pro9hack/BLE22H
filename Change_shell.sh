@@ -1,3 +1,7 @@
+#!/bin/bash
+#Tool Change Shell
+#Tool Developer Max
+#It Knowledge Helper Team
 
 clear
 

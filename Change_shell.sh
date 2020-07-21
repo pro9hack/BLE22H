@@ -1,14 +1,5 @@
 
 clear
-
-read -p $'\e[32mTermux root@.... :' style
-
-read -p $'\e[32m Termux banner :' banner
-
-read -p $'\e[32mEnter Name title :\e[31m' Name
-
-clear
-
 cd
 
 cd ..
@@ -20,6 +11,25 @@ rm motd
 rm bash.bashrc
 
 cat <<LOGIN>bash.bashrc
+read -p $'\e[32mTermux root@.... :' style
+
+read -p $'\e[32m Termux banner :' banner
+
+read -p $'\e[32mEnter Name title :\e[31m' Name
+
+clear
+
+
+
+
+
+
+
+
+
+
+
+
 
 echo -e "\e[96m<<$Name>>\e[109m"
 

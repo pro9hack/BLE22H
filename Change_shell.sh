@@ -10,7 +10,7 @@ clear
 
 
 
-cat <<LOGIN>bash.bashrc
+
 read -p $'\e[32mTermux root@.... :' style
 
 read -p $'\e[32m Termux banner :' banner

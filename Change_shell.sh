@@ -1,14 +1,14 @@
 
 clear
-cd
 
-cd ..
 
-cd usr/etc
 
-rm motd
 
-rm bash.bashrc
+
+
+
+
+
 
 cat <<LOGIN>bash.bashrc
 read -p $'\e[32mTermux root@.... :' style
@@ -19,7 +19,12 @@ read -p $'\e[32mEnter Name title :\e[31m' Name
 
 clear
 
-
+cd
+cd ..
+cd usr/etc
+rm motd
+rm bash.bashrc
+cat <<LOGIN>bash.bashrc
 
 
 

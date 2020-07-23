@@ -1,4 +1,4 @@
-
+#Tool by Max
 clear
 
 read -p $'\e[32mTermux root@.... :' style
@@ -28,7 +28,9 @@ PS1='\033[32m\a╔═\a║\d║════║\@║═\a═══════╗
 ║ \a\a\a
 ╚\a════║root@\e[31m$style\e[32m║══\a═══║\#\e[180m\w\e[32m║══════\a>'
 
-bash
+
+
+
 
 
 
